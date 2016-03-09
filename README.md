@@ -1,5 +1,0 @@
-# DirectoryScan
-
-
-
-Gabriel Porto Lopes
