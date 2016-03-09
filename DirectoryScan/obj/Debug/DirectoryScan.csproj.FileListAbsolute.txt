@@ -1,0 +1,8 @@
+C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\bin\Debug\DirectoryScan.exe
+C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\bin\Debug\DirectoryScan.pdb
+C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.csprojResolveAssemblyReference.cache
+C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.Properties.Resources.resources
+C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.csproj.GenerateResource.Cache
+C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.exe
+C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.pdb
+C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.Form1.resources
