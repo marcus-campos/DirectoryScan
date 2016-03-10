@@ -19,6 +19,9 @@ namespace DirectoryScan
 
         DirectoryScan directoryScan = new DirectoryScan();
 
+        public static FileInfo[] fileInfo;
+
+
         private void butDir1_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
@@ -27,19 +30,28 @@ namespace DirectoryScan
             //abrir o FolderBrowserDialog
             labDir1.Text = folderBrowserDialog.SelectedPath;
 
-            FileInfo[] teste = directoryScan.ListarArquivos(folderBrowserDialog.SelectedPath);
-            string teste1 = "";
+            Cursor.Current = Cursors.WaitCursor;
 
-            for (int i = 0; i < teste.Length; i++)
+            fileInfo = directoryScan.ListarArquivos(folderBrowserDialog.SelectedPath);
+
+            treeView1.Nodes.Clear();
+            for (int i = 0; i < fileInfo.Length; i++)
             {
-                teste1 = teste1 + teste[i].ToString() + " | ";
+                treeView1.Nodes.Add(fileInfo[i].FullName.ToString());
             }
-
-            MessageBox.Show(teste1);
         }
 
-        private void butDir2_Click(object sender, EventArgs e)
+        private void butArqRep_Click(object sender, EventArgs e)
         {
+            Cursor.Current = Cursors.WaitCursor;
+            FileInfo[] fi = directoryScan.ListarArquivosRepetidos(fileInfo);
+            treeView1.Nodes.Clear();
+            for (int i = 0; i < fi.Length; i++)
+            {
+                treeView1.Nodes.Add(fi[i].FullName.ToString());
+            }
+
+
 
         }
 
