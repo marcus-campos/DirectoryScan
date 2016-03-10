@@ -6,3 +6,11 @@ C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\
 C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.exe
 C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.pdb
 C:\Users\gabri_000.FLAME-PC\Documents\Visual Studio 2013\Projects\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.Form1.resources
+D:\GitHub\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.exe
+D:\GitHub\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.pdb
+D:\GitHub\DirectoryScan\DirectoryScan\bin\Debug\DirectoryScan.exe
+D:\GitHub\DirectoryScan\DirectoryScan\bin\Debug\DirectoryScan.pdb
+D:\GitHub\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.csprojResolveAssemblyReference.cache
+D:\GitHub\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.Form1.resources
+D:\GitHub\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.Properties.Resources.resources
+D:\GitHub\DirectoryScan\DirectoryScan\obj\Debug\DirectoryScan.csproj.GenerateResource.Cache
