@@ -17,8 +17,7 @@ namespace DirectoryScan
             InitializeComponent();
         }
 
-        public DirectoryInfo dir1 = null;
-        DirectoryScan dirscan1 = new DirectoryScan();
+        DirectoryScan directoryScan = new DirectoryScan();
 
         private void butDir1_Click(object sender, EventArgs e)
         {
@@ -26,25 +25,17 @@ namespace DirectoryScan
             //instanciar o FolderBrowserDialog
             folderBrowserDialog.ShowDialog();
             //abrir o FolderBrowserDialog
+            labDir1.Text = folderBrowserDialog.SelectedPath;
 
-            try
+            FileInfo[] teste = directoryScan.ListarArquivos(folderBrowserDialog.SelectedPath);
+            string teste1 = "";
+
+            for (int i = 0; i < teste.Length; i++)
             {
-                dir1 = new DirectoryInfo(folderBrowserDialog.SelectedPath.ToString());
-                //Converter string para DirectoryInfo
-
-                if (dir1.Exists)
-                {
-                    labDir1.Text = dir1.ToString();
-                }
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
+                teste1 = teste1 + teste[i].ToString() + " | ";
             }
 
-
-
+            MessageBox.Show(teste1);
         }
 
         private void butDir2_Click(object sender, EventArgs e)
