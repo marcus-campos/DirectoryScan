@@ -50,8 +50,6 @@ namespace DirectoryScan
             {
                 treeView1.Nodes.Add(fi[i].FullName.ToString());
             }
-            MessageBox.Show("lucas");
-
         }
 
     }
