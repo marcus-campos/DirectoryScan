@@ -35,9 +35,14 @@ namespace DirectoryScan
             fileInfo = directoryScan.ListarArquivos(folderBrowserDialog.SelectedPath);
 
             treeView1.Nodes.Clear();
-            for (int i = 0; i < fileInfo.Length; i++)
-            {
-                treeView1.Nodes.Add(fileInfo[i].FullName.ToString());
+            try{
+                for (int i = 0; i < fileInfo.Length; i++)
+                {
+                    treeView1.Nodes.Add(fileInfo[i].FullName.ToString());
+                }
+            }
+            catch{
+                MessageBox.Show('Error', 'Error');
             }
         }
 
